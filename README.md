@@ -144,4 +144,6 @@ int main(void) {
 
 ## 📄 License
 
-Educational project - Free to use.
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
+This is free software: you are free to change and redistribute it under the terms of the GPL-3.0 license.
