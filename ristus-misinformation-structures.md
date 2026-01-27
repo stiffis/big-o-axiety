@@ -1,0 +1,79 @@
+- Fundamentals
+  - Array 1D
+  - Dynamic array (vector)
+  - Array 2D/ND (matrix)
+  - String as char array
+  - Bitset / Bitmap
+- Linear
+  - Singly linked list
+  - Doubly linked list
+  - Circular singly linked list
+  - Circular doubly linked list
+  - Sentinel node linked list
+  - Stack
+  - Queue
+  - Deque (double-ended queue)
+  - Circular queue (ring buffer)
+  - Priority queue
+- Hashing and dictionaries
+  - Hash table (chaining)
+  - Hash table (open addressing: linear/quadratic/double hashing)
+  - Perfect hash / minimal perfect hash (conceptual)
+  - Cuckoo hashing (conceptual)
+  - Robin Hood hashing (conceptual)
+- Basic trees
+  - Binary tree
+  - Complete / perfect binary tree (conceptual)
+  - Binary search tree (BST)
+  - Threaded binary tree
+- Balanced trees
+  - AVL
+  - Red-Black
+  - Treap
+  - Splay
+- Heaps
+  - Binary heap (min/max)
+  - D-ary heap
+  - Binomial heap
+  - Fibonacci heap
+  - Pairing heap
+- Multiway trees and search
+  - B-Tree
+  - B+ Tree
+  - 2–3 Tree
+  - 2–3–4 Tree
+  - Trie (prefix tree)
+  - Radix tree / Patricia trie
+  - Ternary search tree
+- Range structures
+  - Segment Tree
+  - Fenwick Tree (BIT)
+  - Sparse Table
+  - Interval Tree
+  - Range Tree (conceptual)
+- Graphs
+  - Adjacency list
+  - Adjacency matrix
+  - Edge list
+  - Directed / undirected graph
+  - Weighted / unweighted graph
+  - Union-Find (DSU)
+- Probabilistic structures
+  - Bloom Filter
+  - Count-Min Sketch
+  - HyperLogLog (conceptual)
+- Advanced strings
+  - Suffix Array
+  - Suffix Tree
+  - LCP array
+  - Aho-Corasick automaton
+  - KMP prefix table (auxiliary structure)
+- Spatial structures
+  - K-D Tree
+  - QuadTree
+  - Octree
+  - R-Tree (conceptual)
+- Caches and hybrid structures
+  - LRU Cache (hash + doubly linked list)
+  - LFU Cache (hash + heap/lists)
+  - Skip List
