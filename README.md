@@ -57,6 +57,27 @@ make clean
 
 **See:** `include/array.h`, `examples/demo_array.c`
 
+### ✅ Static Array
+- `static_array_create()` / `static_array_destroy()`
+- `static_array_set()` / `static_array_get()`
+- `static_array_fill()` / `static_array_clear()`
+- `static_array_find()` / `static_array_copy()` / `static_array_reverse()`
+- Fixed capacity (no resizing)
+
+**See:** `include/static_array.h`, `examples/demo_static_array.c`
+
+### ✅ Array 2D (Matrix)
+- `array2d_create()` / `array2d_destroy()`
+- `array2d_set()` / `array2d_get()`
+- `array2d_get_row()` / `array2d_get_col()`
+- `array2d_fill_row()` / `array2d_fill_col()`
+- `array2d_transpose()` / `array2d_transpose_copy()`
+- `array2d_find()` / `array2d_copy()`
+- Row-major memory layout
+- Matrix operations (transpose, row/col access)
+
+**See:** `include/array2d.h`, `examples/demo_array2d.c`
+
 ## 🧠 Key Concepts in C
 
 ### 1. Opaque Pointers
@@ -127,6 +148,8 @@ int main(void) {
 ## 📝 Roadmap
 
 - [x] Dynamic Array
+- [x] Static Array
+- [x] Array 2D (Matrix)
 - [ ] Linked List (single)
 - [ ] Linked List (double)
 - [ ] Stack
