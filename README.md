@@ -78,6 +78,29 @@ make clean
 
 **See:** `include/array2d.h`, `examples/demo_array2d.c`
 
+### ✅ AVL Tree
+- `avl_create()` / `avl_destroy()`
+- `avl_insert()` / `avl_delete()` / `avl_search()`
+- `avl_min()` / `avl_max()`
+- `avl_inorder()` / `avl_preorder()` / `avl_postorder()`
+- Self-balancing binary search tree
+- O(log n) operations
+- Automatic rotations (LL, RR, LR, RL)
+
+**See:** `include/avl.h`, `examples/demo_avl.c`
+
+### ✅ B-Tree
+- `btree_create(min_degree)` / `btree_destroy()`
+- `btree_insert()` / `btree_delete()` / `btree_search()`
+- `btree_min()` / `btree_max()`
+- `btree_traverse()` / `btree_to_array()`
+- Self-balancing multiway search tree
+- Configurable minimum degree (t >= 2)
+- Automatic node splitting/merging
+- Optimized for disk I/O
+
+**See:** `include/btree.h`, `examples/demo_btree.c`
+
 ## 🧠 Key Concepts in C
 
 ### 1. Opaque Pointers
@@ -150,6 +173,8 @@ int main(void) {
 - [x] Dynamic Array
 - [x] Static Array
 - [x] Array 2D (Matrix)
+- [x] AVL Tree
+- [x] B-Tree
 - [ ] Linked List (single)
 - [ ] Linked List (double)
 - [ ] Stack
