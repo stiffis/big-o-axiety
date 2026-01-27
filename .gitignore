@@ -1,0 +1,21 @@
+# Build artifacts
+build/
+*.o
+*.out
+*.exe
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.dSYM/
+vgcore.*
+core
