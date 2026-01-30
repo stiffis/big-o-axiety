@@ -2,7 +2,7 @@
 
 Pure C implementations of classic data structures.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 data-structures.c/
@@ -14,7 +14,7 @@ data-structures.c/
 └── README.md
 ```
 
-## 🚀 Build and Run
+## Build and Run
 
 ### Build everything
 ```bash
@@ -38,9 +38,9 @@ make run-tests
 make clean
 ```
 
-## 📚 Implemented Structures
+## Implemented Structures
 
-### ✅ Dynamic Array
+### Dynamic Array
 - `array_create()` / `array_destroy()`
 - `array_push()` / `array_pop()`
 - `array_insert()` / `array_remove()`
@@ -49,7 +49,7 @@ make clean
 
 **See:** `include/array.h`, `examples/demo_array.c`
 
-### ✅ Static Array
+### Static Array
 - `static_array_create()` / `static_array_destroy()`
 - `static_array_set()` / `static_array_get()`
 - `static_array_fill()` / `static_array_clear()`
@@ -58,7 +58,7 @@ make clean
 
 **See:** `include/static_array.h`, `examples/demo_static_array.c`
 
-### ✅ Static Array Arena
+### Static Array Arena
 - `arena_create()` / `arena_destroy()` / `arena_reset()`
 - `static_array_arena_create()` / `static_array_arena_destroy()`
 - `static_array_arena_set()` / `static_array_arena_get()`
@@ -67,7 +67,7 @@ make clean
 
 **See:** `include/static_array_arena.h`, `tests/test_static_array_arena.c`
 
-### ✅ Array 2D (Matrix)
+### Array 2D (Matrix)
 - `array2d_create()` / `array2d_destroy()`
 - `array2d_set()` / `array2d_get()`
 - `array2d_get_row()` / `array2d_get_col()`
@@ -78,7 +78,7 @@ make clean
 
 **See:** `include/array2d.h`, `examples/demo_array2d.c`
 
-### ✅ AVL Tree
+### AVL Tree
 - `avl_create()` / `avl_destroy()`
 - `avl_insert()` / `avl_delete()` / `avl_search()`
 - `avl_min()` / `avl_max()`
@@ -87,7 +87,7 @@ make clean
 
 **See:** `include/avl.h`, `examples/demo_avl.c`
 
-### ✅ B-Tree
+### B-Tree
 - `btree_create(min_degree)` / `btree_destroy()`
 - `btree_insert()` / `btree_delete()` / `btree_search()`
 - `btree_min()` / `btree_max()`
@@ -96,7 +96,7 @@ make clean
 
 **See:** `include/btree.h`, `examples/demo_btree.c`
 
-### ✅ Dynamic String
+### Dynamic String
 - `string_create()` / `string_create_from()` / `string_destroy()`
 - `string_push()` / `string_pop()` / `string_append()` / `string_concat()`
 - `string_insert()` / `string_find()` / `string_substring()`
@@ -105,7 +105,7 @@ make clean
 
 **See:** `include/dyn_string.h`, `examples/demo_dyn_string.c`
 
-### ✅ Bitset
+### Bitset
 - `bitset_create()` / `bitset_destroy()`
 - `bitset_set()` / `bitset_clear()` / `bitset_flip()` / `bitset_test()`
 - `bitset_count()` / `bitset_all()` / `bitset_any()` / `bitset_none()`
@@ -114,7 +114,7 @@ make clean
 
 **See:** `include/bitset.h`, `examples/demo_bitset.c`
 
-### ✅ Singly Linked List
+### Singly Linked List
 - `slist_create()` / `slist_destroy()`
 - `slist_push_front()` / `slist_push_back()` / `slist_pop_front()` / `slist_pop_back()`
 - `slist_insert_after()` / `slist_remove_at()`
@@ -122,7 +122,7 @@ make clean
 
 **See:** `include/singly_linked_list.h`, `examples/demo_singly_linked_list.c`
 
-### ✅ Doubly Linked List
+### Doubly Linked List
 - `dlist_create()` / `dlist_destroy()`
 - `dlist_push_front()` / `dlist_push_back()` / `dlist_pop_front()` / `dlist_pop_back()`
 - `dlist_insert_at()` / `dlist_remove_at()`
@@ -130,7 +130,7 @@ make clean
 
 **See:** `include/doubly_linked_list.h`, `examples/demo_doubly_linked_list.c`
 
-### ✅ Stack
+### Stack
 - `stack_create()` / `stack_destroy()`
 - `stack_push()` / `stack_pop()` / `stack_peek()`
 - `stack_size()` / `stack_is_empty()` / `stack_clear()`
@@ -138,7 +138,7 @@ make clean
 
 **See:** `include/stack.h`, `examples/demo_stack.c`
 
-### ✅ Queue
+### Queue
 - `queue_create()` / `queue_destroy()`
 - `queue_enqueue()` / `queue_dequeue()` / `queue_peek()`
 - `queue_size()` / `queue_is_empty()` / `queue_clear()`
@@ -146,7 +146,7 @@ make clean
 
 **See:** `include/queue.h`, `examples/demo_queue.c`
 
-### ✅ Deque (Double-Ended Queue)
+### Deque (Double-Ended Queue)
 - `deque_create()` / `deque_destroy()`
 - `deque_push_front()` / `deque_push_back()` / `deque_pop_front()` / `deque_pop_back()`
 - `deque_peek_front()` / `deque_peek_back()`
@@ -154,7 +154,7 @@ make clean
 
 **See:** `include/deque.h`, `examples/demo_deque.c`
 
-### ✅ Ring Buffer
+### Ring Buffer
 - `ring_buffer_create()` / `ring_buffer_destroy()`
 - `ring_buffer_write()` / `ring_buffer_read()` / `ring_buffer_peek()`
 - `ring_buffer_size()` / `ring_buffer_capacity()` / `ring_buffer_is_full()`
@@ -162,7 +162,7 @@ make clean
 
 **See:** `include/ring_buffer.h`, `examples/demo_ring_buffer.c`
 
-### ✅ Priority Queue
+### Priority Queue
 - `pqueue_create()` / `pqueue_destroy()`
 - `pqueue_push()` / `pqueue_pop()` / `pqueue_peek()`
 - `pqueue_size()` / `pqueue_is_empty()` / `pqueue_clear()`
@@ -170,7 +170,7 @@ make clean
 
 **See:** `include/priority_queue.h`, `examples/demo_priority_queue.c`
 
-## 📖 Basic Usage
+## Basic Usage
 
 ```c
 #include "array.h"
@@ -192,7 +192,7 @@ int main(void) {
 }
 ```
 
-## 📝 Roadmap
+## Roadmap
 
 - [x] Dynamic Array
 - [x] Static Array
@@ -213,11 +213,11 @@ int main(void) {
 - [ ] Binary Search Tree
 - [ ] Graph
 
-## 📚 Resources
+## Resources
 
 - [Beej's Guide to C](https://beej.us/guide/bgc/)
 - [The C Programming Language (K&R)](https://en.wikipedia.org/wiki/The_C_Programming_Language)
 
-## 📄 License
+## License
 
 GPL-3.0
